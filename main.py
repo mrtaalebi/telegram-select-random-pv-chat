@@ -16,7 +16,7 @@ phone_number = os.getenv('TELEAPP_PHONE_NUMBER', 0)
 
 
 async def connect():
-    client = TelegramClient('session_name', api_id, api_hash)
+    client = TelegramClient('telegram-select-random-pv-chat', api_id, api_hash)
     await client.connect()
     while True:
         auth = await client.is_user_authorized()
