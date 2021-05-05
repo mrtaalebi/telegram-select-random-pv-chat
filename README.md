@@ -18,7 +18,7 @@ Telethon is just a library in python that makes calling those APIs much easier
 - you may create and enter a virtualenv
 - now you can either
   - use `make all` for the first time and `make run` for the future runs
-  - or enter the command in the `Makefile` manualy (it's nothing complicated)
+  - or enter the commands listed in the `Makefile` manualy (it's nothing complicated or long)
 
 
 ## Further usage
