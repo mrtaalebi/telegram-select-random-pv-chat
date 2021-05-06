@@ -4,8 +4,8 @@ A telegram client app, using telethon to randomly select a pv to chat. You may u
 
 ## About Telethon and Telegram client API
 You may know about telegram bots API and how you can programmize them, there's also an API for telegram clients. 
-Which you can use by registering an app in telegram developers page and then make calls to telegram servers, 
-with client level access (list of all contacts, send messages to anyone, ...) with the `api_id` and `api_hash` telegram gives you.
+Which you can use by registering an app in telegram developers page and then make calls to telegram servers. 
+These APIs allow the code to do everything you can normally do with telegram apps and more (list of all contacts, send messages to anyone, ...).
 
 Telethon is just a library in python that makes calling those APIs much easier
 
